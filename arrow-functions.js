@@ -1,8 +1,5 @@
 /**
  * Arrow Functions Assignment
- * Convert traditional functions to arrow functions
- * and write new arrow functions from scratch.
- * Uncomment the tests at the bottom of the file to test that the functions you wrote work as intended
  */
 
 // =============================================
@@ -80,25 +77,25 @@ const calculateSalePrice = (name, price) => {
 };
 
 // =============================================
-// TEST YOUR FUNCTIONS (UNCOMMENT TO RUN)
+// TEST YOUR FUNCTIONS
 // =============================================
 
-// console.log("Testing Part 1:");
-// console.log(greetUserArrow("Alice"));
-// console.log(calculateAreaArrow(5, 3));
-// console.log(getCurrentTimeArrow());
-// console.log(validatePasswordArrow("secret"));
-// console.log(processOrderArrow({ price: 10 }, 2));
+console.log("Testing Part 1:");
+console.log(greetUserArrow("Alice"));
+console.log(calculateAreaArrow(5, 3));
+console.log(getCurrentTimeArrow());
+console.log(validatePasswordArrow("secret"));
+console.log(processOrderArrow({ price: 10 }, 2));
 
-// console.log("\nTesting Part 2:");
-// console.log(makeUppercase("hello"));
-// console.log(getSquare(4));
-// console.log(createFullName("John", "Doe"));
-// console.log(calculateVolume(2, 3, 4));
-// console.log(checkAge(25));
-// console.log(checkAge(16));
-// console.log(getFirstElement([1, 2, 3, 4]));
-// console.log(calculateAverage(85, 92, 78));
-// console.log(evaluateScores(95, 87, 92));
-// console.log(evaluateScores(75, 68, 82));
-// console.log(calculateSalePrice("Laptop", 100));
+console.log("\nTesting Part 2:");
+console.log(makeUppercase("hello"));
+console.log(getSquare(4));
+console.log(createFullName("John", "Doe"));
+console.log(calculateVolume(2, 3, 4));
+console.log(checkAge(25));
+console.log(checkAge(16));
+console.log(getFirstElement([1, 2, 3, 4]));
+console.log(calculateAverage(85, 92, 78));
+console.log(evaluateScores(95, 87, 92));
+console.log(evaluateScores(75, 68, 82));
+console.log(calculateSalePrice("Laptop", 100));
